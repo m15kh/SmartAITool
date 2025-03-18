@@ -8,6 +8,8 @@ A smart AI tool package for Python that provides useful utilities for terminal o
 pip install SmartAITool
 ```
 
+*You can download the package by running the above command.*
+
 ## Usage
 
 ### Colored Terminal Output
