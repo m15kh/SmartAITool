@@ -44,11 +44,6 @@ pip install -r requirements-dev.txt
 pip install -e .
 ```
 
-### Running tests
-
-```bash
-pytest
-```
 
 
 ## License
