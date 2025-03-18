@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SmartAITool"
+version = "0.1.0"
+authors = [
+  {name = "Your Name", email = "mohammad.khalili1515@gmail.com"},
+]
+description = "A smart AI tool package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/m15kh/SmartAITool"
+"Bug Tracker" = "https://github.com/m15kh/SmartAITool/issues"
