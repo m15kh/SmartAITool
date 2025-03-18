@@ -1,6 +1,8 @@
 #FEATURE
-
+    - #[x] Video processing functionality
     - #[ ]
 
 #TODO
  - add to pypi
+ - add more video processing features
+ - add tests for video module
