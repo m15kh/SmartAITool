@@ -22,16 +22,6 @@ core.cprint("Warning message", "yellow")
 core.cprint("Information message", "blue")
 ```
 
-### Data Processing
-
-```python
-from SmartAITool import core
-
-# Process data
-result = core.process_data("your input data")
-print(result)
-```
-
 ## Features
 
 - **Colored Terminal Output**: Easy-to-use colored text printing in terminal
@@ -60,18 +50,6 @@ pip install -e .
 pytest
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please make sure to update tests as appropriate.
 
 ## License
 
