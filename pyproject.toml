@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "SmartAITool"
-version = "0.2.0"
+version = "0.2.1"
 authors = [
   {name = "Your Name", email = "mohammad.khalili1515@gmail.com"},
 ]
@@ -15,6 +15,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "opencv-python>=4.0.0",
+    "tqdm>=4.0.0",
 ]
 
 [project.urls]

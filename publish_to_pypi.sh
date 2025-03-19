@@ -41,3 +41,6 @@ python -m build
 python -m twine upload dist/* --verbose
 
 echo "Successfully published version $NEW_VERSION to PyPI!"
+
+#TODO run by this command
+# ./publish_to_pypi.sh 0.2.1
