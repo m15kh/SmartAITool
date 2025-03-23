@@ -15,14 +15,25 @@ pip install SmartAITool
 ### Colored Terminal Output
 
 ```python
-from SmartAITool import core
+from SmartAITool.core import cprint, bprint
 
 # Print with colored output
-core.cprint("Success message", "green")
-core.cprint("Error message", "red")
-core.cprint("Warning message", "yellow")
-core.cprint("Information message", "blue")
+cprint("Success message", "green")  # displayed in green
+cprint("Error message", "red")      # displayed in red
+cprint("Warning message", "yellow") # displayed in yellow
+cprint("Information message", "blue") # displayed in blue
+cprint("Default color message")     # displayed in red (default color)
+
+# Print bordered text in cyan
+# Print bordered text in cyan
+bprint("Section Header")  # Prints: ----------------------Section Header----------------------
+bprint(length=50)        # Prints: --------------------------------------------------
+bprint()                 # Prints: -------------------------------------------------------------------------------
 ```
+
+This addition shows users exactly what to expect when they use the functions in their terminal, helping them understand the visual effect without needing to run the code first.
+
+This clarifies the default behavior of both functions so users understand what to expect when using them without specifying all parameters.
 
 ### Video Processing
 
@@ -44,6 +55,7 @@ video.create_video("frames_directory", "output_video.mp4", fps=30)
 
 - **Colored Terminal Output**: Easy-to-use colored text printing in terminal
 - **Support for 8 Colors**: black, red, green, yellow, blue, magenta, cyan, white
+- **Formatted Borders**: Create eye-catching bordered text for log sections
 - **Simple API**: Intuitive and straightforward functions
 - **Video Processing**: Tools for extracting frames and creating videos
 
