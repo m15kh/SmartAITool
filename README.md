@@ -10,7 +10,7 @@ pip install SmartAITool
 
 *You can download the package by running the above command.*
 
-## Usage
+## Usage 
 
 ### Colored Terminal Output
 
