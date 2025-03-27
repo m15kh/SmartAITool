@@ -3,7 +3,7 @@
 A smart AI tool package for Python that provides useful utilities for terminal output formatting, data processing, and video manipulation.
 
 ## Installation
-
+ 
 ```bash
 pip install SmartAITool
 ```
