@@ -79,7 +79,7 @@ pip install -e .
 ```
 
 ## Thanks to
-[https://github.com/BorhanPetgar/Borhan-Computer-Vision-Package](https://github.com/BorhanPetgar/Borhan-Computer-Vision-Package)
+[LINK](https://github.com/BorhanPetgar/Borhan-Computer-Vision-Package)
 for the video processing code.
 
 
