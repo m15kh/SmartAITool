@@ -78,6 +78,12 @@ pip install -r requirements-dev.txt
 pip install -e .
 ```
 
+## Thanks to
+[https://github.com/BorhanPetgar/Borhan-Computer-Vision-Package](https://github.com/BorhanPetgar/Borhan-Computer-Vision-Package)
+for the video processing code.
+
+
 ## License
+
 
 [MIT](https://choosealicense.com/licenses/mit/)
