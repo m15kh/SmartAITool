@@ -3,14 +3,14 @@
 A smart AI tool package for Python that provides useful utilities for terminal output formatting, data processing, and video manipulation.
 
 ## Installation
-
+ 
 ```bash
 pip install SmartAITool
 ```
 
 *You can download the package by running the above command.*
 
-## Usage
+## Usage 
 
 ### Colored Terminal Output
 
@@ -78,6 +78,12 @@ pip install -r requirements-dev.txt
 pip install -e .
 ```
 
+## Thanks to
+[Borhan](https://github.com/BorhanPetgar/Borhan-Computer-Vision-Package)
+for the video processing code.
+
+
 ## License
+
 
 [MIT](https://choosealicense.com/licenses/mit/)
